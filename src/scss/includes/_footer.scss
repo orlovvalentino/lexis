@@ -1,0 +1,33 @@
+footer {
+  margin-bottom: 3vh;
+  border-top: 1px solid #FFFFFF;
+  opacity: 0.5;
+  line-height: 1.7;
+  ul {
+    margin: 3vh 0 2vh;
+    padding: 0;
+    list-style: none;
+    li{
+
+      font-weight: normal;
+      &.copyright{
+        margin-right: auto;
+        margin-left: 0;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px){
+  footer{
+    ul{
+      display: flex;
+      justify-content: flex-end;
+      li{
+        margin-left: 4em;
+      }
+    }
+  }
+}
+
+
+
