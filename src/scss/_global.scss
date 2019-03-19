@@ -39,12 +39,12 @@ body {
 }
 .bg{
   max-width: 1440px;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  padding-top: 80%;
   position: absolute;
   right: 0;
   top: 0;
-  transform: translateX(40%);
+  transform: translateX(30%);
   background: url(../img/bg1.png) no-repeat top center;
   background-size: contain;
   z-index: -1;
@@ -79,7 +79,7 @@ h1 {
 //middle
 .middle{
   position: relative;
-  margin-bottom: 60%;
+  margin-bottom: 65%;
   &_bg{
     position: absolute;
     z-index: -1;
@@ -88,6 +88,7 @@ h1 {
     height: 100vw;
     background: url(../img/bg2.png) no-repeat;
     background-size: contain;
+    transform: translateY(-5%);
   }
   &_txt{
     font-size: 16px;
@@ -151,6 +152,9 @@ h4{
   }
   h4{
     font-size: 48px;
+  }
+  .middle{
+    margin-bottom: 60%;
   }
 }
 
