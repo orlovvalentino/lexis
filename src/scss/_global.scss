@@ -40,7 +40,8 @@ body {
 .bg{
   max-width: 1440px;
   width: 100%;
-  padding-top: 80%;
+  height: calc(19vh + 117px);
+  //padding-top: 80%;
   position: absolute;
   right: 0;
   top: 0;
@@ -56,6 +57,7 @@ h1 {
 
 .links-block{
   width: 100%;
+  max-width: 463px;
   display: flex;
 
   justify-content: space-between;
@@ -101,6 +103,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     font-size: 20px;
+    margin-bottom: 20px;
   }
   svg{
     width: 2.1em;
@@ -132,7 +135,8 @@ h4{
 
 @media screen and (min-width: 768px){
   .bg{
-    display: block;
+    padding-top: 80%;
+    height: auto;
   }
   .links-block{
     width: 49.5%;

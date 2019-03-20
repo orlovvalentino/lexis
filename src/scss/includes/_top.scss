@@ -18,6 +18,13 @@
   .top{
     font-size: 60px;
     &_txt{
+      width: 60%;
+    }
+  }
+}
+@media screen and (min-width: 1024px){
+  .top{
+    &_txt{
       width: 50%;
     }
   }
