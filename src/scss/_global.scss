@@ -90,7 +90,7 @@ h1 {
     height: 100vw;
     background: url(../img/bg2.png) no-repeat;
     background-size: contain;
-    transform: translateY(-5%);
+    transform: translateY(-20%);
   }
   &_txt{
     font-size: 16px;
@@ -109,6 +109,7 @@ h1 {
     width: 2.1em;
     align-self: flex-start;
     margin-right: .3em;
+    margin-bottom: 8%;
   }
   h3{
     flex: 1;
@@ -168,7 +169,7 @@ h4{
 @media screen and (min-width: 1280px){
   .middle{
     &_bg{
-      transform: translateY(5%);
+      transform: translateY(0);
     }
   }
 }
